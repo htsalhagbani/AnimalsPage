@@ -1,0 +1,144 @@
+
+
+.ulnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#344e41;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw; 
+    z-index: 1000;
+    height: 7vh;
+
+  }
+  
+  .ulnav li {
+    float: left;
+    margin-left: 10px;
+  }
+  
+  .ulnav li  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .ulnav li a:hover {
+    background-color: #111;
+  }
+
+  .continer1{
+    background-color: rgb(247, 248, 247);
+    border: 1px solid #344e41;
+    width: 75vw;
+    height: 59vh;
+    position: relative;
+    top: 90px;
+    left: 12%;
+    border-radius: 30px;
+
+  }
+
+  .image1{
+    width:25vw;
+     height:50vh;
+     border-radius: 30px;
+
+  }
+
+  .div-image{
+    border-radius: 30px;
+     width: 25vw; 
+     height: 50vh;
+     position: absolute;
+     top: 30px;
+     left: 80px;
+  }
+
+  .paragraph{
+    width: 30vw;
+    height: 50vh;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+  }
+
+  .li-paragraph{
+    margin-top: 9px;
+    font-size: 1.2rem;
+    color:  #344e41;
+  }
+
+  .continer2{
+    /* background-color: rgb(219, 220, 219); */
+    width: 75vw;
+    height: 60vh;
+    position: relative;
+    top: 190px;
+    left: 12%;
+
+  }
+
+  .type-dog{
+    width: 60vw;
+    height: 58vh;
+    position: absolute;
+    top: 8px;
+    left: 10%;
+  }
+
+  .type1{
+    width: 25vw;
+    height: 45vh;
+    background-color: rgb(247, 248, 247);
+    border: 1px solid #344e41;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border-radius: 30px;
+
+
+  }
+
+  .type2{
+    width: 25vw;
+    height: 45vh;
+    background-color: rgb(247, 248, 247);
+    border: 1px solid #344e41;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    border-radius: 30px;
+
+
+  }
+
+  .link-artical{
+   margin-left: 31px; 
+   color:  #344e41;
+
+  }
+
+  .image-artical{
+   margin-bottom: 20px; 
+   margin-left: 30px;
+   margin-top: 30px;
+   border-radius: 20px;
+
+  }
+
+  
+    /* Style the footer */
+footer {
+    background-color:#344e41;
+    /* padding: 10px; */
+    height: 9vh;
+    text-align: center;
+    color: white;
+    margin-top: 280px;
+  }
